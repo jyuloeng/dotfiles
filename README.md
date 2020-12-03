@@ -34,7 +34,6 @@
 
   勾选："**Finder**" -> "偏好设置" -> "高级" -> "显示所有文件扩展名"
 
-
 ## 开发环境设置
 
 ### Command Line Tools
@@ -67,7 +66,7 @@ $ git version
 这里的 **bootstrap** 不是前端开发的 `Bootstrap UI`，而是一个终端自动化脚本，直接 `.bootstrap` 执行这个文件，就可以在终端安装我常用的前端开发配置环境和软件
 
 ```sh
-$ xcode-select --install 
+$ xcode-select --install
 $ git clone --recursive https://github.com/oddii/dotfiles.git
 # 在执行 Brewfile 之前要使用 Apple Id 登陆 AppStore，并确保该 Apple Id 已购买过需要通过 mas 安装的软件，否则会失败
 $ cd dotfiles
@@ -101,7 +100,7 @@ $ ./bootstrap
 
   ```sh
   $ brew bundle dump
-  
+
   brew "yarn"	# 命令行类应用
   ...
   cask "typora" # 非命令行类应用
@@ -131,7 +130,7 @@ $ ./bootstrap
 
   ```sh
   echo "Setup workspace"
-  mkdir -p ~/demo 
+  mkdir -p ~/demo
   mkdir -p ~/work
   ```
 
@@ -203,22 +202,22 @@ $ ./bootstrap
   # zsh 开发插件配置
   # zsh-autosuggestions 自动补全 需配置信息
   source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-  
+
   # zsh-syntax-highlighting 高亮语法 需配置信息
   source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-  
+
   # zsh-completions 增强自动补全 需配置信息
   if type brew &>/dev/null; then
       FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
-  
+
       autoload -Uz compinit
       compinit
   fi
-  
+
   # 还需执行以下命令
-  
+
   # rm -f ~/.zcompdump; compinit
-  
+
   # chmod go-w '/usr/local/share'
   ```
 
@@ -243,7 +242,7 @@ $ ./bootstrap
 - 设置编码：
 
   ```sh
-  export LC_ALL=en_US.UTF-8  
+  export LC_ALL=en_US.UTF-8
   export LANG=en_US.UTF-8
   ```
 
@@ -276,4 +275,6 @@ $ ./bootstrap
 
 基本应用清单可以查看 Brewfile 里列举的应用，这里是记录一些个人常用的其他应用：
 
-- DeepL：一款快速翻译软件
+- [DeepL](https://www.deepl.com/home)：一款快速翻译软件
+
+- [ClashX Pro](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public)：一款适用于 macOS 用爱发电的代理管理软件
