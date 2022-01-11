@@ -37,7 +37,6 @@ brew "zsh-autosuggestions"
 brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 
-cask "appcleaner"
 cask "charles"
 cask "docker"
 cask "font-fira-code"
@@ -56,12 +55,12 @@ cask "monitorcontrol"
 cask "postman"
 cask "qlmarkdown"
 cask "spectacle"
-cask "typora"
 cask "upic"
 cask "visual-studio-code"
 
-mas "Todoist", id: 585829637
 mas "Xcode", id: 497799835
 mas "微信", id: 836500024
-mas "超级右键", id: 1497428978
 mas "QQ音乐", id: 595615424
+mas "WPS Office", id: 1468073139
+mas "Elmedia Video Player", id: 1044549675
+mas "腾讯柠檬清理 (Lemon Cleaner)", id: 1449962996

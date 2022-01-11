@@ -275,6 +275,18 @@ $ ./bootstrap
 
 基本应用清单可以查看 Brewfile 里列举的应用，这里是记录一些个人常用的其他应用：
 
-- [DeepL](https://www.deepl.com/home)：一款快速翻译软件
+- [DeepL](https://www.deepl.com/home)：一款快速翻译软件。
 
-- [ClashX Pro](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public)：一款适用于 macOS 用爱发电的代理管理软件
+- [ClashX Pro](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public)：一款适用于 macOS 用爱发电的代理管理软件。
+
+- [Figma](https://www.figma.com)：一款设计效率工具。
+
+- [字由](https://www.hellofont.cn)：一款无需安装字体即可在设计工具上使用字体的软件。
+
+- [itsycal](https://www.mowglii.com/itsycal)：一款颜值较高的日历。
+
+- [HapiGo](https://hapigo.com/)：一款脑力工作者必备工具。
+
+- [Notion](https://www.notion.so/)：一款需要科学上网的笔记软件。
+
+- [阿里云盘](https://www.aliyundrive.com)：一款不限速的网盘。

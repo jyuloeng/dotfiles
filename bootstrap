@@ -17,7 +17,7 @@ brew bundle
 set -e
 
 echo "Setup workspace"
-mkdir -p ~/demo 
+mkdir -p ~/demo
 mkdir -p ~/work
 
 echo "Setup Git"
@@ -41,4 +41,3 @@ sudo ln -s /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/cod
 echo "Setup applications"
 echo "- fzf"
 $(brew --prefix)/opt/fzf/install
-
